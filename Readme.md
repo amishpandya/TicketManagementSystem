@@ -5,7 +5,7 @@ Follow these steps to set up and run the project in Visual Studio:
 ### ✅ Setup Instructions
 
 1. **Open the Solution**  
-   Open the `.sln` file of `TicketManagementUI` in Visual Studio.
+   Open the `.sln` file of `TicketManagementSystem` in Visual Studio.
 
 2. **Set the Startup Project**  
    In the **Solution Explorer**, right-click on `TicketManagementUI` →  
