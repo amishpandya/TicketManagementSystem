@@ -1,8 +1,34 @@
-Step 1: Open .sol file of ticketmanagementUI from the folder in visual studio
-Step 2: from running option select the ticketmanagementUI from the startup project option (if domain is selected)
-Step 3: change the database connection string from app.setting file (provide the connection string from SQL server studio)
-Step 4: Open tools -> Nu package manager -> package manager console -> write update-database
-Step 5: Run the application
-Step 6: Login Account:
-email: Test@gmail.om
-pass: NeedReset%123
+## 🚀 Getting Started with TicketManagementUI
+
+Follow these steps to set up and run the project in Visual Studio:
+
+### ✅ Setup Instructions
+
+1. **Open the Solution**  
+   Open the `.sln` file of `TicketManagementUI` in Visual Studio.
+
+2. **Set the Startup Project**  
+   In the **Solution Explorer**, right-click on `TicketManagementUI` →  
+   **Set as Startup Project** (make sure `Domain` is not selected as startup).
+
+3. **Configure the Database Connection**  
+   Open `appsettings.json` and update the database connection string with your SQL Server credentials.
+
+4. **Apply Migrations to Database**  
+   - Go to **Tools** → **NuGet Package Manager** → **Package Manager Console**  
+   - Run the following command:  
+     ```
+     Update-Database
+     ```
+
+5. **Run the Application**  
+   Press `F5` or click **Start** to run the project.
+
+---
+
+### 🔐 Test Login Credentials
+
+Use the following credentials to log in:
+
+- **Email:** `Test@gmail.com`  
+- **Password:** `NeedReset%123`
